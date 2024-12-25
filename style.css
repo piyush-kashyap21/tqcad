@@ -1,0 +1,326 @@
+*{margin: 0%;
+padding: 0%;}
+
+
+html,body{
+    height: 100%;
+    width: 100%;}
+
+    #main{
+       
+        height: 100%;
+        width: 100%;
+    }
+
+
+#header{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(12, 11, 78);
+    display: flex;
+    position: fixed;
+ 
+
+    
+    
+
+
+}
+#fakeheader{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(22, 216, 19);
+    display: flex;
+  
+
+}
+.text{padding:10px;
+          align-items: center;
+            align-content: center;
+        color: rgb(234, 241, 241);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 5px;
+margin-left: 10%;
+justify-items: center;
+font-style: normal;
+font-feature-settings: "abvs";
+font-weight: 200;
+font-size: x-large;
+white-space: nowrap;
+
+       border-color: blue;
+}
+.text:hover{
+    height: 90%;
+    width: max-content;
+    background-color: rgb(77, 171, 179);
+}
+#logo{
+    
+    width: fit-content;
+    margin: 2px;
+    background-color: rgb(248, 248, 248);
+    align-content: center;
+    
+}
+#logo img {
+    width: 70px;
+    height: 70px;
+
+   align-content: center;
+   
+}
+#tagline{
+    color: rgb(255, 255, 255);
+   
+    width: 100%;
+    height: 70px;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  justify-content: center;
+  padding: 10px;
+  
+
+  background-size: contain;
+  background-image: url('https://i.pinimg.com/originals/a3/45/0f/a3450fd30c0257515fd06955b61a9b78.jpg');
+  white-space-collapse: ;
+    
+}
+#tagline h1{
+    margin-bottom: 10px;
+    margin-left: 10cm;
+}
+#tagline p{
+    margin-top: 0;
+     line-height: 1.5;
+   margin-left: 17cm;
+     font-size: x-large;
+  font-variant: small-caps;
+  font-weight: 200;
+}
+
+#page1{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(253, 255, 238);
+}
+body,html{
+ 
+  
+    place-items: center;
+}
+#moto{
+    margin-top: 2000px;
+    width: 1000px;
+    height:150px ;
+    bottom: 0px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+align-items: end;
+align-content:  baseline;
+   margin-left: 95cqh;
+    border: 1ch;
+    border-color: black;
+    border-radius: 10%;
+    
+    
+align-self: center;}
+#moto p{
+  position: absolute;
+  font-weight: 500;
+   padding: 2%;
+font-size:medium;
+   align-content: center;
+   align-self: center;
+   font-style: oblique;
+    text-decoration: underline;
+  align-items: last baseline;
+  display: flex;
+  line-height:0.8cm;
+  align-content: last baseline;
+  align-self: last baseline;
+    margin: auto;
+   color: rgb(168, 8, 8);
+  font-family: 'Times New Roman', Times, serif;
+     width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         justify-content: space-between;}
+#page2{
+
+    height: 90%;
+    width: 100%;
+    background-color: rgb(126, 255, 255);
+}
+.mainbox{
+  
+    display: flex;
+    overflow: hidden;
+   
+   flex-grow: 1;
+  flex-basis: 1;
+
+  transition: .5s;
+}
+.mainbox:hover{
+    flex-basis: 30%;
+}
+.mainbox img{
+    object-fit: cover;
+    transition: 50%;
+}
+#box1{
+    justify-content: center;
+    height: 300px;
+    width: 200px;
+   
+    border: 1px solid black;
+    
+    margin: 20px;
+    border-radius: 5%;
+ 
+    
+}
+#box1 img{
+
+    object-fit: cover;
+    transition: 0.5s;
+}
+#box2 {  justify-content: center;
+  
+    height: 300px;
+    width:200px;
+    display: flex;
+    border: 1px solid black;
+    
+    margin: 20px;
+    border-radius: 5%;
+    object-fit: contain;
+   
+ }
+
+#box3 {
+    justify-content: center;
+    height: 300px;
+    width:200px;
+    display: flex;
+    border: 1px solid black;
+     
+    margin: 20px;
+    object-fit: contain;
+    border-radius: 5%;
+}
+#box4 {
+    justify-content: center;
+    height: 300px;
+    width:200px;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    margin: 20px;
+    border-radius: 5%;
+object-fit:contain;
+}
+#box5{
+ 
+    height: 300px;
+    width:200px;
+   justify-content: center;
+    border: 1px solid black;
+    
+    margin: 20px;
+    border-radius: 5%;
+   }
+#box5 img{
+    object-fit: fill;
+ 
+}
+#box6{
+      justify-content: center;
+    height: 300px;
+    width:200px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 5%;
+    object-fit: fill;
+   
+}
+#box6 img{
+    object-fit: fill;
+}
+#page2 img{
+    width: 100%;
+    height: 100%;
+}
+#page3{
+    background-color: rgb(123, 125, 125);
+    height: 90%;
+    width: 100%;
+}
+.footer{
+     margin-top:10px;
+     margin-bottom: 30px;
+    color: rgb(251, 255, 255);
+    font-style: normal;
+    line-height: 0.5cm;
+    white-space: nowrap;
+    font-size: large;
+    margin-left: 59%;
+    font-weight: 600;
+  
+  
+   
+}
+#map{
+    height: 100px;
+    width: 200px;
+    align-content: center;
+    margin-top: 20px;
+
+}
+.cform{
+    margin-top: 1px;
+}
+.page4{
+    height: 90%;
+    width: 100%;
+  
+    ;color: blue;
+  
+    background-color: rgb(101, 110, 110);
+}
+.ffclass{
+    border-radius: 5%;
+    border-color: black;
+   padding: 10px;
+    display: table-column;
+    margin-left: 45%;
+    margin-top: 40px;
+  
+  
+}
+.page4 button img{
+    height: 0.3px;
+    width: 0.9px;
+}
+.page4::placeholder {
+    width: 400px;
+    font-size: large;
+
+}
+.page4 button{
+    background-color: rgb(17, 126, 33);
+    border-radius: 25%;
+}
+.contact-left-title{
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-content: center;
+    margin-left: 40%;
+    white-space: nowrap;
+    background-color: rgb(28, 28, 97);
+    color: rgb(255, 255, 255);
+    width: 390px;
+    margin-top: 10px;
+    
+}
